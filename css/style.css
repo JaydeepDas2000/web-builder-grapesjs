@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 100vh !important;
+}
+
+#gjs {
+    height: 100vh !important;
+}
+
+#gjs > .gjs-editor-cont {
+    height: 100% !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.gjs-pn-devices-c {
+    padding: 2px 5px !important;
+}
